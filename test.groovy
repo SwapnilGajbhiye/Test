@@ -8,12 +8,12 @@ pipeline {
           }
           stage('Test') { 
             steps {
-              print("")
+              print("Test Succeed")
             }
           }
           stage('Deploy') { 
             steps {
-              // 
+              print 
             }
           }
         }
