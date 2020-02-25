@@ -8,12 +8,12 @@ pipeline {
           }
           stage('Test') { 
             steps {
-              print("Test Succeed")
+              echo 'Test Successfully Complete'
             }
           }
           stage('Deploy') { 
             steps {
-              print("Deployment Completed") 
+              echo 'Build Successfully Complete'
             }
           }
         }
