@@ -13,7 +13,7 @@ pipeline {
           }
           stage('Deploy') { 
             steps {
-              echo 'Build Successfully Complete'
+              echo 'Deployment Successfully Complete'
             }
           }
         }
