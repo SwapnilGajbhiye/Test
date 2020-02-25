@@ -3,7 +3,7 @@ pipeline {
         stages {
           stage('Build') { 
             steps {
-              print 
+              print ("Build ") 
             }
           }
           stage('Test') { 
