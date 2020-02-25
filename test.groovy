@@ -13,7 +13,7 @@ pipeline {
           }
           stage('Deploy') { 
             steps {
-              print("Dep") 
+              print("Deployment Completed") 
             }
           }
         }
